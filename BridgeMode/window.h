@@ -23,7 +23,7 @@ public:
     virtual void Raise();
     virtual void Lower();
     virtual void DrawLine(const Point&, const Point&);
-    virtual void DrawRect(const Point&, const Point&);
+    virtual void DrawRect(const Point &p1, const Point &p2);
     virtual void DrawPolygon(const Point[], int n);
     virtual void DrawText(const char*, const Point&);
 
